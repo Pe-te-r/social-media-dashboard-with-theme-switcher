@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container">
+    <header>
+        <div>
+            <h1>Social Media Dashboard</h1>
+            <p>Total Followers: 23,004</p>
+        </div>
+        <div class="dark-mode-toggle">
+            <label for="dark-mode-toggle" id="theme">Light Mode</label>
+            <label class="switch">
+              <input type="checkbox" onclick="toggleDarkMode()">
+              <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+    <section class="social-stats">
+        <div class="card facebook">
+            <div class="card-header">
+              <img src="./images/icon-facebook.svg" alt="" height="24px" width="24px">
+                <p>@nathanf</p>
+            </div>
+            <h2>1987</h2>
+            <p>Followers</p>
+            <p class="today">12 Today</p>
+        </div>
+        <div class="card twitter">
+            <div class="card-header">
+              <img src="./images/icon-twitter.svg" alt="" height="24px" width="24px">
+                <p>@nathanf</p>
+            </div>
+            <h2>1044</h2>
+            <p>Followers</p>
+            <p class="today">99 Today</p>
+        </div>
+        <div class="card instagram">
+            <div class="card-header">
+              <img src="./images/icon-instagram.svg" alt="" height="24px" width="24px">
+                <p>@realnathanf</p>
+            </div>
+            <h2>11k</h2>
+            <p>Followers</p>
+            <p class="today">1099 Today</p>
+        </div>
+        <div class="card youtube">
+            <div class="card-header">
+              <img src="./images/icon-facebook.svg" alt="" height="24px" width="24px">
+
+                <p>Nathan F.</p>
+            </div>
+            <h2>8239</h2>
+            <p>Subscribers</p>
+            <p class="today">144 Today</p>
+        </div>
+    </section>
+
+    <section class="overview">
+      <h2>Overview - Today</h2>
+      <div class="grid">
+        <div class="card small facebook">
+          <div>
+          <p>Page Views</p>
+          <h3>87</h3>
+        </div>
+        <div class="pages">
+          <img src="./images/icon-facebook.svg" alt="facebook" height="20px" width="20px">
+          <span>+3%</span>
+        </div>
+        </div>
+        <div class="card small facebook">
+          <div>
+          <p>Likes</p>
+          <h3>52</h3>
+        </div>
+        <div class="pages">
+          <img src="./images/icon-facebook.svg" alt="facebook" height="20px" width="20px">
+          <span class="negative">-2%</span>
+        </div>
+        </div>
+        <div class="card small instagram">
+          <div>
+          <p>Likes</p>
+          <h3>5462</h3>
+        </div>
+        <div class="pages">
+          <img src="./images/icon-instagram.svg" alt="instagram" height="20px" width="20px">
+          <span>+2257%</span>
+        </div>
+        </div>
+        <div class="card small instagram">
+          <div>
+          <p>Profile Views</p>
+          <h3>52k</h3>
+        </div>
+        <div class="pages">
+          <img src="./images/icon-instagram.svg" alt="instagram" height="20px" width="20px">
+          <span>+1375%</span>
+        </div>
+        </div>
+        <div class="card small twitter">
+          <div>
+          <p>Retweets</p>
+          <h3>117</h3>
+        </div>
+        <div class="pages">
+          <img src="./images/icon-twitter.svg" alt="twitter" height="20px" width="20px">
+          <span>+303%</span>
+        </div>
+        </div>
+        <div class="card small twitter">
+          <div>
+          <p>Likes</p>
+          <h3>507</h3>
+        </div>
+        <div class="pages">
+          <img src="./images/icon-twitter.svg" alt="twitter" height="20px" width="20px">
+          <span>+553%</span>
+        </div>
+        </div>
+        <div class="card small youtube">
+          <div>
+          <p>Likes</p>
+          <h3>107</h3>
+        </div>
+        <div class="pages">
+          <img src="./images/icon-youtube.svg" alt="youtube" height="20px" width="20px">
+          <span class="negative">-19%</span>
+        </div>
+        </div>
+        <div class="card small youtube">
+          <div>
+          <p>Total Views</p>
+          <h3>1407</h3>
+        </div>
+        <div class="pages">
+          <img src="./images/icon-youtube.svg" alt="youtube" height="20px" width="20px">
+          <span class="negative">-12%</span>
+        </div>
+        </div>
+      </div>
+    </section>
+  </section>
+</main>
+
+<script src="./script.js"></script>
+</body>
+</html>
