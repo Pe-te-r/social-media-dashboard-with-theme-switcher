@@ -27,6 +27,7 @@ window.addEventListener('load', async ()=>{
     const ifanFollowers=document.getElementById('ifanFollowers')
     ifanName.innerText = ifan['name']
     ifanFollowers.innerText=ifan['followers']
+    console.log(ifan)
 
     const DanielName=document.getElementById('daniel')
     const DanielFollowers=document.getElementById('danielFollowers')
